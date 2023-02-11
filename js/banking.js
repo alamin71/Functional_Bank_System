@@ -29,7 +29,7 @@ document.getElementById('withdraw-button').addEventListener('click',function(){
     withdrawTotal.innerText = previousWithdrawTotal + withdrawAmount;
     //clear withdraw input
     withdrawinput.value = '';
-    //afte rwitdraw balance update
+    //after witdraw balance update
    const balanceTotal = document.getElementById('Total-Balance');
    const balanceTotaltext = balanceTotal.innerText;
    const previousBalanceTotal = parseFloat(balanceTotaltext);
